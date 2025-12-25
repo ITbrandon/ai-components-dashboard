@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Sparkles, Zap, Shield, BarChart3 } from "lucide-react";
-import { Badge } from "../../components/ui/badge";
-import { Avatar, AvatarFallback } from "../../components/ui/avatar";
+import { Badge } from "../ui/badge";
+import { Avatar, AvatarFallback } from "../ui/avatar";
 
 export function DashboardHeader() {
   return (

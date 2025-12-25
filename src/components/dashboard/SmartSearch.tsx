@@ -22,7 +22,7 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 };
 
 export function SmartSearch() {
-  const { query, results, status, error, search, retry, clear } = useAISearch();
+  const { results, status, error, search, retry, clear } = useAISearch();
   const [inputValue, setInputValue] = useState("");
   const [isFocused, setIsFocused] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
